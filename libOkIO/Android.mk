@@ -1,4 +1,4 @@
-# Copyright (C) 2014-2016 The MoKee Open Source Project
+# Copyright (C) 2015-2016 The MoKee Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -14,10 +14,9 @@
 
 LOCAL_PATH:= $(call my-dir)
 
-
 include $(CLEAR_VARS)
-LOCAL_SRC_FILES := libMoKeeCloud$(COMMON_JAVA_PACKAGE_SUFFIX)
-LOCAL_MODULE := libMoKeeCloud
+LOCAL_SRC_FILES := libOkIO$(COMMON_JAVA_PACKAGE_SUFFIX)
+LOCAL_MODULE := libOkIO
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_PATH := $(TARGET_OUT)/fake_packages/$(LOCAL_SRC_FILES)
